@@ -6,6 +6,8 @@ import Bootstrap from './components/Bootstrap';
 import Routing from './components/Routing';
 import Forms from './components/Forms';
 import Rest from './components/Rest';
+import Passing from './components/Passing';
+
 import './App.css';
 
 class App extends Component {
@@ -20,6 +22,7 @@ class App extends Component {
           <Route path="/react-router" component={Routing}/>
           <Route path="/react-forms" component={Forms}/>
           <Route path="/access-rest" component={Rest}/>
+          <Route path="/pass-state-values" component={Passing}/>
         </div>
       </Router>
     );

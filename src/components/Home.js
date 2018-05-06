@@ -26,6 +26,7 @@ class Home extends Component {
                 <li><Link to='/react-bootstrap'>Add Bootstrap</Link></li>
                 <li><Link to='/react-router'>Routing in React</Link></li>
                 <li><Link to='/react-forms' >Forms and Input</Link></li>
+                <li><Link to='/pass-state-values' >Passing properties between components</Link></li>
                 <li><Link to='/access-rest' >Fetch data from an API</Link></li>
               </ul>
             </div>
